@@ -1,0 +1,166 @@
+*
+    *{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(mbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+i{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(134, 69, 31);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    width: 640px;
+    height: 480px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(m1.jpg);
+}
+.card2{
+    background-image: url(m2.jpg);
+}
+.card3{
+    background-image: url(m3.jpg);
+}
+.card4{
+    background-image: url(m4.jpg);
+}
+.card5{
+    background-image: url(m5.jpg);
+}
+.card6{
+    background-image: url(m6.jpg);
+}
+.card7{
+    background-image: url(m7.jpg);
+}
+.card8{
+    background-image: url(m8.jpg);
+}
+.card9{
+    background-image: url(m9.jpg);
+}
+.card10{
+    background-image: url(m10.jpg);
+}
+.card11{
+    background-image: url(m11.jpg);
+}
+.card12{
+    background-image: url(m12.jpg);
+}
+.card13{
+    background-image: url(m13.jpg);
+}
+.card14{
+    background-image: url(m14.jpg);
+}
+.card15{
+    background-image: url(m15.jpg);
+}
+.card16{
+    background-image: url(m16.jpg);
+}
+.card17{
+    background-image: url(m17.jpg);
+}
+.card18{
+    background-image: url(m18.jpg);
+}
+.card19{
+    background-image: url(m19.jpg);
+}
+.card20{
+    background-image: url(m20.jpg);
+}
+.card21{
+    background-image: url(m21.jpg);
+}
+.card22{
+    background-image: url(m22.jpg);
+}
+.card23{
+    background-image: url(m23.jpg);
+}
+.card24{
+    background-image: url(m24.jpg);
+}
+.card25{
+    background-image: url(m25.jpg);
+}
+.card26{
+    background-image: url(m26.jpg);
+}
+.card27{
+    background-image: url(m27.jpg);
+}
+.card28{
+    background-image: url(m28.jpg);
+}
+.card29{
+    background-image: url(m29.jpg);
+}
+.card30{
+    background-image: url(m30.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h4{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}

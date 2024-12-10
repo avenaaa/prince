@@ -1,0 +1,109 @@
+*
+    *{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(wwp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+i{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(134, 69, 31);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+}   
+
+.card{
+    width: 640px;
+    height: 450px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(c1.jpg);
+}
+.card2{
+    background-image: url(c2.jpg);
+}
+.card3{
+    background-image: url(c3.jpg);
+}
+.card4{
+    background-image: url(c4.jpg);
+}
+.card5{
+    background-image: url(c5.jpg);
+}
+.card6{
+    background-image: url(c6.jpg);
+}
+.card7{
+    background-image: url(c7.jpg);
+}
+.card8{
+    background-image: url(c8.jpg);
+}
+.card9{
+    background-image: url(c9.jpg);
+}
+.card10{
+    background-image: url(c10.jpg);
+}
+.card11{
+    background-image: url(c11.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h4{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
